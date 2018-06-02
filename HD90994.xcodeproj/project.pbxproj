@@ -14,6 +14,11 @@
 		3F2ACA5E207497570041E1BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2ACA5C207497570041E1BD /* LaunchScreen.storyboard */; };
 		3F2ACA69207497580041E1BD /* HD90994Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2ACA68207497580041E1BD /* HD90994Tests.swift */; };
 		3F2ACA74207497580041E1BD /* HD90994UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2ACA73207497580041E1BD /* HD90994UITests.swift */; };
+		3FB1DBAC207DFBEF005BE675 /* GuaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1DBAB207DFBEF005BE675 /* GuaViewController.swift */; };
+		3FB1DBAE207F3792005BE675 /* JieGuaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1DBAD207F3792005BE675 /* JieGuaViewController.swift */; };
+		3FB1DBB120810C30005BE675 /* logo_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB1DBB020810C2E005BE675 /* logo_01.png */; };
+		3FB1DBB420810E97005BE675 /* main_but02.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB1DBB220810E96005BE675 /* main_but02.png */; };
+		3FB1DBB520810E97005BE675 /* main_but01.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB1DBB320810E97005BE675 /* main_but01.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		3F2ACA6F207497580041E1BD /* HD90994UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HD90994UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F2ACA73207497580041E1BD /* HD90994UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HD90994UITests.swift; sourceTree = "<group>"; };
 		3F2ACA75207497580041E1BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB1DBAB207DFBEF005BE675 /* GuaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuaViewController.swift; sourceTree = "<group>"; };
+		3FB1DBAD207F3792005BE675 /* JieGuaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JieGuaViewController.swift; sourceTree = "<group>"; };
+		3FB1DBB020810C2E005BE675 /* logo_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_01.png; sourceTree = "<group>"; };
+		3FB1DBB220810E96005BE675 /* main_but02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_but02.png; sourceTree = "<group>"; };
+		3FB1DBB320810E97005BE675 /* main_but01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_but01.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +109,13 @@
 			children = (
 				3F2ACA53207497560041E1BD /* AppDelegate.swift */,
 				3F2ACA55207497560041E1BD /* ViewController.swift */,
+				3FB1DBAB207DFBEF005BE675 /* GuaViewController.swift */,
+				3FB1DBAD207F3792005BE675 /* JieGuaViewController.swift */,
 				3F2ACA57207497570041E1BD /* Main.storyboard */,
 				3F2ACA5A207497570041E1BD /* Assets.xcassets */,
 				3F2ACA5C207497570041E1BD /* LaunchScreen.storyboard */,
 				3F2ACA5F207497580041E1BD /* Info.plist */,
+				3FB1DBAF20810C2D005BE675 /* Sprite */,
 			);
 			path = HD90994;
 			sourceTree = "<group>";
@@ -123,6 +136,16 @@
 				3F2ACA75207497580041E1BD /* Info.plist */,
 			);
 			path = HD90994UITests;
+			sourceTree = "<group>";
+		};
+		3FB1DBAF20810C2D005BE675 /* Sprite */ = {
+			isa = PBXGroup;
+			children = (
+				3FB1DBB320810E97005BE675 /* main_but01.png */,
+				3FB1DBB220810E96005BE675 /* main_but02.png */,
+				3FB1DBB020810C2E005BE675 /* logo_01.png */,
+			);
+			path = Sprite;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +258,9 @@
 				3F2ACA5E207497570041E1BD /* LaunchScreen.storyboard in Resources */,
 				3F2ACA5B207497570041E1BD /* Assets.xcassets in Resources */,
 				3F2ACA59207497570041E1BD /* Main.storyboard in Resources */,
+				3FB1DBB420810E97005BE675 /* main_but02.png in Resources */,
+				3FB1DBB120810C30005BE675 /* logo_01.png in Resources */,
+				3FB1DBB520810E97005BE675 /* main_but01.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +286,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F2ACA56207497560041E1BD /* ViewController.swift in Sources */,
+				3FB1DBAE207F3792005BE675 /* JieGuaViewController.swift in Sources */,
 				3F2ACA54207497560041E1BD /* AppDelegate.swift in Sources */,
+				3FB1DBAC207DFBEF005BE675 /* GuaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
